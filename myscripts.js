@@ -14,14 +14,13 @@ $(document).ready(function (){
 
     $('.carousel').carousel({
         dots:true,
-        arrow:false
+        arrow:false,
         }
     )
     $('.owl-carousel').owlCarousel({
         loop: true,
         margin: 10,
         dots: true,
-        time: 100000000,
         responsive: {
             0: {
                 items: 1
