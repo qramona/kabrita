@@ -95,6 +95,16 @@ input{
 #carouselExampleIndicators{
     border-radius: 10px;
 }
+.carousel-indicators{
+    margin: -2rem 0;
+}
+.carousel-indicators>li{
+    width: 15px;
+    height: 15px;
+    background: #85C4E8;
+    border-radius: 100%;
+    margin: 0 0.5rem;
+}
 .item-family img{
     width: 100px;
     height: 100px;
@@ -167,6 +177,174 @@ input{
 }
 .header__second-slide-b{
     color: #002169;
+}
+.kabrita__sliders{
+
+}
+.kabrita__section-header{
+
+}
+.header__kabrita{
+
+}
+.header__kabrita p{
+
+}
+.header__kabrita b{
+
+}
+.kabrita__main-section{
+
+}
+.kabrita__filtration{
+
+}
+.filtration-sets{
+
+}
+.filtration-boxs{
+
+}
+.filtration-presents{
+
+}
+.filtration__radio{
+
+}
+.kabrita__main-blocks{
+
+}
+.slider__descriprion{
+
+}
+.slider__descriprion h3{
+
+}
+.slider__descriprion p{
+
+}
+.kabrita__main-slide{
+
+}
+.kabrita__month{
+
+}
+.kabrita__slider{
+
+}
+.kabrita__slider-header{
+
+}
+.kabrita__slider-p{
+
+}
+.kabrita__slider-price{
+
+}
+.kabrita__current-price{
+
+}
+.slider__old-price{
+
+}
+.slider__sale{
+
+}
+.sale-img{
+
+}
+.sale-percentage{
+
+}
+.kabrita__slider-basket{
+
+}
+.slider__basket-amount{
+
+}
+.plus-btn,.minus-btn{
+
+}
+.slider__basket-amount input{
+
+}
+.projects{
+
+}
+.specprojects{
+
+}
+.projects__header{
+
+}
+.specproject__block1{
+
+}
+.specproject__block1 b{
+
+}
+.specproject__block1 a{
+
+}
+.specproject__block2{
+
+}
+.specproject__block2 a{
+
+}
+.actions{
+
+}
+.projects__header{
+
+}
+.actions{
+
+}
+.actions__slider1{
+
+}
+.header__carousel-b{
+
+}
+.actions__description{
+
+}
+.footer{
+
+}
+.footer__block1{
+
+}
+.footer__logo{
+
+}
+.footer__menus1{
+
+}
+.footer__menu{
+
+}
+.footer__menus1 a{
+
+}
+.footer__menus1 p{
+
+}
+.footer__block2{
+
+}
+.recommendation{
+
+}
+.recommendation-logos{
+
+}
+.recommendation-logo{
+
+}
+.footer__copyrights p{
+
 }
 @media screen and (min-width: 1600px) {
     .header__first-slide,.header__second-slide,.header__third-slide{
@@ -294,6 +472,7 @@ input{
         line-height: 20px;
         font-size: 12px;
     }
+
 }
 @media screen and (max-width: 576px) {
     .logo>img{

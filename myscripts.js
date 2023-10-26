@@ -19,6 +19,7 @@ $(document).ready(function (){
     )
     $('.owl-carousel').owlCarousel({
         loop: true,
+        arrow:true,
         margin: 10,
         dots: true,
         responsive: {
