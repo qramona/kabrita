@@ -13,9 +13,17 @@ input{
     border: none;
     outline: none;
 }
+.header{
+    margin: 0 0 8% 0;
+
+}
+.logo{
+    height: 8.3em;
+}
 .logo>img{
     margin-top: -4rem;
     width: 204px;
+
 }
 .header__basket{
     display: flex;
@@ -67,6 +75,10 @@ input{
     display: flex;
     height: 10px;
     margin: 9rem 0;
+
+}
+.slider__wrapper{
+
 }
 .header__first-slide{
     background-image: url("../assets/header__carousel1.svg");
@@ -80,9 +92,9 @@ input{
 .header__first-slide,.header__second-slide,.header__third-slide{
     background-repeat: no-repeat;
     background-position: center;
-    height: 200px;
-    background-size: 100%;
-    border-radius: 35%;
+    height: 335px;
+    background-size: cover;
+    border-radius: 0 0 30% 30%;
     /*width: 1000px;*/
 }
 /*.active{*/
@@ -99,11 +111,12 @@ input{
     margin: -2rem 0;
 }
 .carousel-indicators>li{
-    width: 15px;
-    height: 15px;
+    width: 12px;
+    height: 12px;
     background: #85C4E8;
     border-radius: 100%;
     margin: 0 0.5rem;
+    cursor: pointer;
 }
 .item-family img{
     width: 100px;
@@ -151,6 +164,7 @@ input{
 .carousel-control-prev,.carousel-control-next{
     margin: 14rem 0;
     padding: 1rem;
+
 }
 .header__nav-li:hover{
     transition: 0.6s;
@@ -347,22 +361,210 @@ input{
 
 }
 @media screen and (min-width: 1600px) {
+
     .header__first-slide,.header__second-slide,.header__third-slide{
-        border-radius: 23%;
+        border-radius: 0 0 23% 23%;
     }
+    .slider__wrapper{
+        margin: 6% 0 0 0;
+    }
+    .header-carousel__p{
+        font-size: 18px;
+        line-height: 28px;
+    }
+
 }
 @media screen and (max-width: 1600px) {
     .header__nav-li{
         padding: 0 1rem;
     }
     .header__first-slide,.header__second-slide,.header__third-slide{
-    border-radius: 20%;
+    border-radius: 0 0 25% 25%;
     }
+    .slider__wrapper{
+        margin: 6% 0 0 0;
+    }
+    .header-carousel__p{
+        font-size: 16px;
+    }
+    .kabrita__sliders{
 
+    }
+    .kabrita__section-header{
+
+    }
+    .header__kabrita{
+
+    }
+    .header__kabrita p{
+
+    }
+    .header__kabrita b{
+
+    }
+    .kabrita__main-section{
+
+    }
+    .kabrita__filtration{
+
+    }
+    .filtration-sets{
+
+    }
+    .filtration-boxs{
+
+    }
+    .filtration-presents{
+
+    }
+    .filtration__radio{
+
+    }
+    .kabrita__main-blocks{
+
+    }
+    .slider__descriprion{
+
+    }
+    .slider__descriprion h3{
+
+    }
+    .slider__descriprion p{
+
+    }
+    .kabrita__main-slide{
+
+    }
+    .kabrita__month{
+
+    }
+    .kabrita__slider{
+
+    }
+    .kabrita__slider-header{
+
+    }
+    .kabrita__slider-p{
+
+    }
+    .kabrita__slider-price{
+
+    }
+    .kabrita__current-price{
+
+    }
+    .slider__old-price{
+
+    }
+    .slider__sale{
+
+    }
+    .sale-img{
+
+    }
+    .sale-percentage{
+
+    }
+    .kabrita__slider-basket{
+
+    }
+    .slider__basket-amount{
+
+    }
+    .plus-btn,.minus-btn{
+
+    }
+    .slider__basket-amount input{
+
+    }
+    .projects{
+
+    }
+    .specprojects{
+
+    }
+    .projects__header{
+
+    }
+    .specproject__block1{
+
+    }
+    .specproject__block1 b{
+
+    }
+    .specproject__block1 a{
+
+    }
+    .specproject__block2{
+
+    }
+    .specproject__block2 a{
+
+    }
+    .actions{
+
+    }
+    .projects__header{
+
+    }
+    .actions{
+
+    }
+    .actions__slider1{
+
+    }
+    .header__carousel-b{
+
+    }
+    .actions__description{
+
+    }
+    .footer{
+
+    }
+    .footer__block1{
+
+    }
+    .footer__logo{
+
+    }
+    .footer__menus1{
+
+    }
+    .footer__menu{
+
+    }
+    .footer__menus1 a{
+
+    }
+    .footer__menus1 p{
+
+    }
+    .footer__block2{
+
+    }
+    .recommendation{
+
+    }
+    .recommendation-logos{
+
+    }
+    .recommendation-logo{
+
+    }
+    .footer__copyrights p{
+
+    }
 }
 @media screen and (max-width: 1200px) {
     .header__first-slide,.header__second-slide,.header__third-slide{
+    border-radius: 0 0 35% 35%;
+    }
+    .slider__wrapper{
 
+    }
+    .logo{
+        height: 6.6em;
     }
     .logo>img{
         width: 150px;
@@ -390,9 +592,177 @@ input{
     }
     .header-carousel__p{
         width: 56%;
-        line-height: 20px;
+        font-size: 17px;
+        line-height: 26px;
     }
+    .kabrita__sliders{
 
+    }
+    .kabrita__section-header{
+
+    }
+    .header__kabrita{
+
+    }
+    .header__kabrita p{
+
+    }
+    .header__kabrita b{
+
+    }
+    .kabrita__main-section{
+
+    }
+    .kabrita__filtration{
+
+    }
+    .filtration-sets{
+
+    }
+    .filtration-boxs{
+
+    }
+    .filtration-presents{
+
+    }
+    .filtration__radio{
+
+    }
+    .kabrita__main-blocks{
+
+    }
+    .slider__descriprion{
+
+    }
+    .slider__descriprion h3{
+
+    }
+    .slider__descriprion p{
+
+    }
+    .kabrita__main-slide{
+
+    }
+    .kabrita__month{
+
+    }
+    .kabrita__slider{
+
+    }
+    .kabrita__slider-header{
+
+    }
+    .kabrita__slider-p{
+
+    }
+    .kabrita__slider-price{
+
+    }
+    .kabrita__current-price{
+
+    }
+    .slider__old-price{
+
+    }
+    .slider__sale{
+
+    }
+    .sale-img{
+
+    }
+    .sale-percentage{
+
+    }
+    .kabrita__slider-basket{
+
+    }
+    .slider__basket-amount{
+
+    }
+    .plus-btn,.minus-btn{
+
+    }
+    .slider__basket-amount input{
+
+    }
+    .projects{
+
+    }
+    .specprojects{
+
+    }
+    .projects__header{
+
+    }
+    .specproject__block1{
+
+    }
+    .specproject__block1 b{
+
+    }
+    .specproject__block1 a{
+
+    }
+    .specproject__block2{
+
+    }
+    .specproject__block2 a{
+
+    }
+    .actions{
+
+    }
+    .projects__header{
+
+    }
+    .actions{
+
+    }
+    .actions__slider1{
+
+    }
+    .header__carousel-b{
+
+    }
+    .actions__description{
+
+    }
+    .footer{
+
+    }
+    .footer__block1{
+
+    }
+    .footer__logo{
+
+    }
+    .footer__menus1{
+
+    }
+    .footer__menu{
+
+    }
+    .footer__menus1 a{
+
+    }
+    .footer__menus1 p{
+
+    }
+    .footer__block2{
+
+    }
+    .recommendation{
+
+    }
+    .recommendation-logos{
+
+    }
+    .recommendation-logo{
+
+    }
+    .footer__copyrights p{
+
+    }
 
 }
 @media screen and (max-width: 992px) {
@@ -422,8 +792,192 @@ input{
     .header-carousel__b{
         font-size: 35px;
     }
+    .header-carousel__p{
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .header__first-slide,.header__second-slide,.header__third-slide{
+        height: 200px;
+        border-radius: 0 0 30% 30%;
+    }
+    .slider__wrapper{
+        margin: 3% 0 0 0;
+
+    }
+    .kabrita__sliders{
+
+     }
+    .kabrita__section-header{
+
+    }
+    .header__kabrita{
+
+    }
+    .header__kabrita p{
+
+    }
+    .header__kabrita b{
+
+    }
+    .kabrita__main-section{
+
+    }
+    .kabrita__filtration{
+
+    }
+    .filtration-sets{
+
+    }
+    .filtration-boxs{
+
+    }
+    .filtration-presents{
+
+    }
+    .filtration__radio{
+
+    }
+    .kabrita__main-blocks{
+
+    }
+    .slider__descriprion{
+
+    }
+    .slider__descriprion h3{
+
+    }
+    .slider__descriprion p{
+
+    }
+    .kabrita__main-slide{
+
+    }
+    .kabrita__month{
+
+    }
+    .kabrita__slider{
+
+    }
+    .kabrita__slider-header{
+
+    }
+    .kabrita__slider-p{
+
+    }
+    .kabrita__slider-price{
+
+    }
+    .kabrita__current-price{
+
+    }
+    .slider__old-price{
+
+    }
+    .slider__sale{
+
+    }
+    .sale-img{
+
+    }
+    .sale-percentage{
+
+    }
+    .kabrita__slider-basket{
+
+    }
+    .slider__basket-amount{
+
+    }
+    .plus-btn,.minus-btn{
+
+    }
+    .slider__basket-amount input{
+
+    }
+    .projects{
+
+    }
+    .specprojects{
+
+    }
+    .projects__header{
+
+    }
+    .specproject__block1{
+
+    }
+    .specproject__block1 b{
+
+    }
+    .specproject__block1 a{
+
+    }
+    .specproject__block2{
+
+    }
+    .specproject__block2 a{
+
+    }
+    .actions{
+
+    }
+    .projects__header{
+
+    }
+    .actions{
+
+    }
+    .actions__slider1{
+
+    }
+    .header__carousel-b{
+
+    }
+    .actions__description{
+
+    }
+    .footer{
+
+    }
+    .footer__block1{
+
+    }
+    .footer__logo{
+
+    }
+    .footer__menus1{
+
+    }
+    .footer__menu{
+
+    }
+    .footer__menus1 a{
+
+    }
+    .footer__menus1 p{
+
+    }
+    .footer__block2{
+
+    }
+    .recommendation{
+
+    }
+    .recommendation-logos{
+
+    }
+    .recommendation-logo{
+
+    }
+    .footer__copyrights p{
+
+    }
 }
 @media screen and (max-width: 768px) {
+    .header{
+        background: rgb(239,248,250);
+        background: linear-gradient(35deg, rgba(239,248,250,1) 0%, rgba(239,248,250,1) 35%, rgba(255,255,255,1) 100%);
+    }
     .header__nac{
         width: 100%;
     }
@@ -437,6 +991,12 @@ input{
         width: 90%;
         display: flex;
         justify-content: flex-start;
+    }
+    .carousel-indicators>li{
+        display: none;
+    }
+    .header__nav{
+        height: 3.3em;
     }
     .header__menu-items{
     }
@@ -452,6 +1012,12 @@ input{
     .header__nav-li{
         padding: 0 0.9rem;
         font-size: 13px;
+    }
+    .header__first-slide,.header__second-slide,.header__third-slide{
+        border-radius: 0 0 30% 30%;
+    }
+    .slider__wrapper{
+
     }
     .header__address img{
 
@@ -469,8 +1035,177 @@ input{
         font-size: 28px;
     }
     .header-carousel__p{
-        line-height: 20px;
+        line-height: 17px;
         font-size: 12px;
+        width: 56%;
+    }
+    .kabrita__sliders{
+
+    }
+    .kabrita__section-header{
+
+    }
+    .header__kabrita{
+
+    }
+    .header__kabrita p{
+
+    }
+    .header__kabrita b{
+
+    }
+    .kabrita__main-section{
+
+    }
+    .kabrita__filtration{
+
+    }
+    .filtration-sets{
+
+    }
+    .filtration-boxs{
+
+    }
+    .filtration-presents{
+
+    }
+    .filtration__radio{
+
+    }
+    .kabrita__main-blocks{
+
+    }
+    .slider__descriprion{
+
+    }
+    .slider__descriprion h3{
+
+    }
+    .slider__descriprion p{
+
+    }
+    .kabrita__main-slide{
+
+    }
+    .kabrita__month{
+
+    }
+    .kabrita__slider{
+
+    }
+    .kabrita__slider-header{
+
+    }
+    .kabrita__slider-p{
+
+    }
+    .kabrita__slider-price{
+
+    }
+    .kabrita__current-price{
+
+    }
+    .slider__old-price{
+
+    }
+    .slider__sale{
+
+    }
+    .sale-img{
+
+    }
+    .sale-percentage{
+
+    }
+    .kabrita__slider-basket{
+
+    }
+    .slider__basket-amount{
+
+    }
+    .plus-btn,.minus-btn{
+
+    }
+    .slider__basket-amount input{
+
+    }
+    .projects{
+
+    }
+    .specprojects{
+
+    }
+    .projects__header{
+
+    }
+    .specproject__block1{
+
+    }
+    .specproject__block1 b{
+
+    }
+    .specproject__block1 a{
+
+    }
+    .specproject__block2{
+
+    }
+    .specproject__block2 a{
+
+    }
+    .actions{
+
+    }
+    .projects__header{
+
+    }
+    .actions{
+
+    }
+    .actions__slider1{
+
+    }
+    .header__carousel-b{
+
+    }
+    .actions__description{
+
+    }
+    .footer{
+
+    }
+    .footer__block1{
+
+    }
+    .footer__logo{
+
+    }
+    .footer__menus1{
+
+    }
+    .footer__menu{
+
+    }
+    .footer__menus1 a{
+
+    }
+    .footer__menus1 p{
+
+    }
+    .footer__block2{
+
+    }
+    .recommendation{
+
+    }
+    .recommendation-logos{
+
+    }
+    .recommendation-logo{
+
+    }
+    .footer__copyrights p{
+
     }
 
 }
@@ -506,5 +1241,180 @@ input{
         line-height: 15px;
         font-size: 10px;
         width: 73%;
+    }
+    .header__first-slide,.header__second-slide,.header__third-slide{
+        border-radius: 0 0 20% 20%;
+        background-size: cover;
+    }
+    .slider__wrapper{
+    margin: 12% 0 0 0;
+    }
+    .kabrita__sliders{
+
+    }
+    .kabrita__section-header{
+
+    }
+    .header__kabrita{
+
+    }
+    .header__kabrita p{
+
+    }
+    .header__kabrita b{
+
+    }
+    .kabrita__main-section{
+
+    }
+    .kabrita__filtration{
+
+    }
+    .filtration-sets{
+
+    }
+    .filtration-boxs{
+
+    }
+    .filtration-presents{
+
+    }
+    .filtration__radio{
+
+    }
+    .kabrita__main-blocks{
+
+    }
+    .slider__descriprion{
+
+    }
+    .slider__descriprion h3{
+
+    }
+    .slider__descriprion p{
+
+    }
+    .kabrita__main-slide{
+
+    }
+    .kabrita__month{
+
+    }
+    .kabrita__slider{
+
+    }
+    .kabrita__slider-header{
+
+    }
+    .kabrita__slider-p{
+
+    }
+    .kabrita__slider-price{
+
+    }
+    .kabrita__current-price{
+
+    }
+    .slider__old-price{
+
+    }
+    .slider__sale{
+
+    }
+    .sale-img{
+
+    }
+    .sale-percentage{
+
+    }
+    .kabrita__slider-basket{
+
+    }
+    .slider__basket-amount{
+
+    }
+    .plus-btn,.minus-btn{
+
+    }
+    .slider__basket-amount input{
+
+    }
+    .projects{
+
+    }
+    .specprojects{
+
+    }
+    .projects__header{
+
+    }
+    .specproject__block1{
+
+    }
+    .specproject__block1 b{
+
+    }
+    .specproject__block1 a{
+
+    }
+    .specproject__block2{
+
+    }
+    .specproject__block2 a{
+
+    }
+    .actions{
+
+    }
+    .projects__header{
+
+    }
+    .actions{
+
+    }
+    .actions__slider1{
+
+    }
+    .header__carousel-b{
+
+    }
+    .actions__description{
+
+    }
+    .footer{
+
+    }
+    .footer__block1{
+
+    }
+    .footer__logo{
+
+    }
+    .footer__menus1{
+
+    }
+    .footer__menu{
+
+    }
+    .footer__menus1 a{
+
+    }
+    .footer__menus1 p{
+
+    }
+    .footer__block2{
+
+    }
+    .recommendation{
+
+    }
+    .recommendation-logos{
+
+    }
+    .recommendation-logo{
+
+    }
+    .footer__copyrights p{
+
     }
 }

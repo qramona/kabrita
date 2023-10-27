@@ -15,6 +15,8 @@ $(document).ready(function (){
     $('.carousel').carousel({
         dots:true,
         arrow:false,
+        time: 4,
+        transition: 1,
         }
     )
     $('.owl-carousel').owlCarousel({
