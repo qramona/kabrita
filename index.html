@@ -12,9 +12,9 @@
         @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
     </style>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;300&display=swap');
     </style>
-    <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Open+Sans:wght@400;500;700&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Open+Sans:wght@400;500;700&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
@@ -70,6 +70,9 @@
                     <li class="header__nav-li">Врачам</li>
                     <li class="header__nav-li header__nav-buy">Купить</li>
                 </ul>
+                <div class="mobile-logo">
+                    <img src="assets/second-logo.svg" alt="">
+                </div>
             </nav>
                 <div class="header__basket">
                     <a href="#"><img src="assets/basket.png" alt=""></a>
@@ -143,8 +146,12 @@
 <div class="kabrita__section-header">
     <div class="container">
         <div class="row">
-    <h1 class="header__kabrita">Kabrita® интернет-магазин</h1>
-    <p><b>Выбери свой  kabrita-сет.</b> Kabrita-сет — это удобная и выгодная покупка! А еще Kabrita-сет — отличный подарок для молодой мамы.</p>
+        <h1 class="header__kabrita">Kabrita® интернет-магазин</h1>
+            <p class="header__kabrita-p"><b class ="header__kabrita-b"> Выбери свой  kabrita-сет.</b>
+             Kabrita-сет — это удобная и выгодная покупка! А еще Kabrita-сет
+            — отличный подарок для молодой мамы.
+        </p>
+    </div>
         </div>
     </div>
 </div>
@@ -161,17 +168,21 @@
                 <div class="filtration-presents filtration__main" id="filtration-presents">
                     <h3>Kabrita-present</h3>
                 </div>
-                <div class="filtration__radio filtration__radio-active" id="filtration__radio1">
-                    <p>0-6 месяцев</p>
+                <div class="filtration__month-wrapper">
+                    <div class="filtration__radio filtration__radio-active" id="filtration__radio1">
+                        <p>0-6 месяцев</p>
+                    </div>
+                    <div class="filtration__radio" id="filtration__radio2">
+                        <p>6-12 месяцев</p>
+                    </div>
                 </div>
-                <div class="filtration__radio" id="filtration__radio2">
-                    <p>6-12 месяцев</p>
-                </div>
-                <div class="filtration__radio" id="filtration__radio3">
-                    <p>12+ месяцев</p>
-                </div>
-                <div class="filtration__radio" id="filtration__radio4">
-                    <p>18+ месяцев</p>
+                <div class="filtration__month-wrapper">
+                    <div class="filtration__radio" id="filtration__radio3">
+                        <p>12+ месяцев</p>
+                    </div>
+                    <div class="filtration__radio" id="filtration__radio4">
+                        <p>18+ месяцев</p>
+                    </div>
                 </div>
             </div>
             <div class="kabrita__main-blocks">

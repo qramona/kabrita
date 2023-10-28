@@ -25,6 +25,12 @@ input{
     width: 204px;
 
 }
+.mobile-logo{
+    display: none;
+}
+.mobile-logo>img{
+
+}
 .header__basket{
     display: flex;
 }
@@ -199,18 +205,49 @@ input{
 
 }
 .header__kabrita{
+    font-family: 'Comfortaa';
+    font-size: 46px;
+    color: #002169;
+}
+.header__kabrita-wrapper{
 
 }
-.header__kabrita p{
-
-}
-.header__kabrita b{
+.header__kabrita-b,.header__kabrita-p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #002169;
 
 }
 .kabrita__main-section{
 
 }
 .kabrita__filtration{
+
+}
+.filtration__main{
+
+}
+.filtration__main{
+
+}
+.filtration__main{
+    display: flex;
+    justify-content: center;
+    border: #85C4E8 solid 1px;
+    border-radius: 100px;
+    margin: 1rem 1em;
+}
+.filtration__main:hover{
+   background: #aed9f2;
+    opacity: 0.8;
+    transition: 0.8s;
+}
+.filtration__main h3{
+    font-family: 'Roboto';
+    font-size: 16px;
+    padding: 0.5rem;
+    font-weight: 300;
+    color: #002169;
 
 }
 .filtration-sets{
@@ -220,6 +257,9 @@ input{
 
 }
 .filtration-presents{
+
+}
+.filtration__month-wrapper{
 
 }
 .filtration__radio{
@@ -372,6 +412,13 @@ input{
         font-size: 18px;
         line-height: 28px;
     }
+    .header__kabrita-wrapper{
+
+    }
+    .header__kabrita-b,.header__kabrita-p{
+        font-size: 20px;
+    }
+
 
 }
 @media screen and (max-width: 1600px) {
@@ -396,16 +443,22 @@ input{
     .header__kabrita{
 
     }
-    .header__kabrita p{
+    .header__kabrita-wrapper{
 
     }
-    .header__kabrita b{
+    .header__kabrita-wrapper{
+
+    }
+    .header__kabrita-b,.header__kabrita-p{
 
     }
     .kabrita__main-section{
 
     }
     .kabrita__filtration{
+
+    }
+    .filtration__main{
 
     }
     .filtration-sets{
@@ -415,6 +468,9 @@ input{
 
     }
     .filtration-presents{
+
+    }
+    .filtration__month-wrapper{
 
     }
     .filtration__radio{
@@ -604,16 +660,20 @@ input{
     .header__kabrita{
 
     }
-    .header__kabrita p{
+    .header__kabrita-wrapper{
 
     }
-    .header__kabrita b{
-
+    .header__kabrita-b,.header__kabrita-p{
+        width: 75%;
+        font-size: 18px;
     }
     .kabrita__main-section{
 
     }
     .kabrita__filtration{
+
+    }
+    .filtration__main{
 
     }
     .filtration-sets{
@@ -624,6 +684,12 @@ input{
     }
     .filtration-presents{
 
+    }
+    .filtration__month-wrapper{
+        display: flex;
+        justify-content: space-around;
+        font-size: 16px;
+        color: #002169;
     }
     .filtration__radio{
 
@@ -811,18 +877,22 @@ input{
 
     }
     .header__kabrita{
+        font-size: 30px;
+    }
+    .header__kabrita-wrapper{
 
     }
-    .header__kabrita p{
-
-    }
-    .header__kabrita b{
-
+    .header__kabrita-b,.header__kabrita-p{
+        width: 80%;
+        font-size: 16px;
     }
     .kabrita__main-section{
 
     }
     .kabrita__filtration{
+
+    }
+    .filtration__main{
 
     }
     .filtration-sets{
@@ -832,6 +902,9 @@ input{
 
     }
     .filtration-presents{
+
+    }
+    .filtration__month-wrapper{
 
     }
     .filtration__radio{
@@ -978,6 +1051,14 @@ input{
         background: rgb(239,248,250);
         background: linear-gradient(35deg, rgba(239,248,250,1) 0%, rgba(239,248,250,1) 35%, rgba(255,255,255,1) 100%);
     }
+    .mobile-logo{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .mobile-logo>img{
+
+    }
     .header__nac{
         width: 100%;
     }
@@ -1048,16 +1129,19 @@ input{
     .header__kabrita{
 
     }
-    .header__kabrita p{
+    .header__kabrita-wrapper{
 
     }
-    .header__kabrita b{
-
+    .header__kabrita-b,.header__kabrita-p{
+        font-size: 14px;
     }
     .kabrita__main-section{
 
     }
     .kabrita__filtration{
+
+    }
+    .filtration__main{
 
     }
     .filtration-sets{
@@ -1067,6 +1151,9 @@ input{
 
     }
     .filtration-presents{
+
+    }
+    .filtration__month-wrapper{
 
     }
     .filtration__radio{
@@ -1256,18 +1343,27 @@ input{
 
     }
     .header__kabrita{
+    font-size: 20px;
+        text-align: center;
+    }
+    .header__kabrita-p{
 
     }
-    .header__kabrita p{
+    .header__kabrita-wrapper{
 
     }
-    .header__kabrita b{
-
+    .header__kabrita-b,.header__kabrita-p{
+    font-size: 12px;
+        width: 99%;
+        text-align: center;
     }
     .kabrita__main-section{
 
     }
     .kabrita__filtration{
+
+    }
+    .filtration__main{
 
     }
     .filtration-sets{
@@ -1277,6 +1373,9 @@ input{
 
     }
     .filtration-presents{
+
+    }
+    .filtration__month-wrapper{
 
     }
     .filtration__radio{
