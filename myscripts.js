@@ -31,10 +31,19 @@ $(document).ready(function (){
             600: {
                 items: 2
             },
-            1000: {
-                items: 3
+            992: {
+                items: 2
+            },
+            1200:{
+                items:3
             }
         }
-
     })
+    let $carousel = $('.specprojects__slider');
+    let owl = $carousel.data('owlCarousel');
+    owl.reinit({items: 1});
+        // $('#basket1').click(function(){
+        //     $('#basket-amount1').css('display','flex');
+        //     $('#basket1').css('display','none');
+        // })
 });
