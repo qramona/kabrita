@@ -601,9 +601,14 @@ width: 20%;
 }
 .footer__menu{
     display: none;
+    font-family: 'Open Sans';
+    color: #002169;
+    font-size: 16px;
 }
-.footer__menus1 a{
-
+.footer__menus1 a,.footer__menus1 a:hover,.footer__menus1 p{
+    font-family: 'Open Sans';
+    color: #002169;
+    font-size: 16px;
 }
 .footer__menus1 p{
 
@@ -612,8 +617,12 @@ width: 20%;
     display: flex;
     flex-direction: column;
 }
+.footer__app{
+}
 .recommendation{
-
+    font-family: 'Open Sans';
+    font-weight: 100;
+    font-size: 16px;
 }
 .recommendation-logos{
     display: flex;
@@ -679,6 +688,9 @@ width: 20%;
     .kabrita__section-header{
         margin: 2em 0;
     }
+    .kabrita__slider{
+        padding: 2em;
+    }
     .slider__descriprion{
         margin: 3em 0;
     }
@@ -721,8 +733,15 @@ width: 20%;
         display: flex;
         width: -webkit-fill-available;
     }
+    .actions__block2:hover{
+        transform: scale(1.1);
+        transition: 1s;
+    }
     .footer{
 
+    }
+    .footer__wrapper{
+        padding: 3em 2em;
     }
     .footer__logo{
 
@@ -738,6 +757,36 @@ width: 20%;
     }
     .footer__menu{
         display: flex;
+        flex-direction: column;
+    }
+    .footer__block1{
+
+    }
+    .footer__block2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__apps-wrapper{
+        display: flex;
+        flex-direction: row;
+        height: fit-content;
+    }
+    .footer__app{
+        background: #85C4E8;
+        border-radius: 100%;
+        padding: 0.3em;
+        width: 35px;
+        display: flex;
+        justify-content: center;
+        margin: 0 0.2em;
+    }
+    .footer__app:hover{
+        background: #D0E6F8;
+        transition: 1s;
+    }
+    .recommendation-logo{
+        padding: 0 2em;
     }
 }
 @media screen and (max-width: 1600px) {
@@ -838,7 +887,7 @@ width: 20%;
     }
 
     .kabrita__slider{
-
+        padding: 2em;
     }
     .kabrita__slider-header{
 
@@ -958,7 +1007,10 @@ width: 20%;
     }
     .actions__wrapper{
 
-
+    }
+    .actions__block2:hover{
+        transform: scale(1.1);
+        transition: 1s;
     }
     .projects__header{
 
@@ -974,6 +1026,9 @@ width: 20%;
     }
     .footer{
 
+    }
+    .footer__wrapper{
+        padding: 3em 2em;
     }
     .footer__block1{
 
@@ -994,6 +1049,7 @@ width: 20%;
     }
     .footer__menu{
         display: flex;
+        flex-direction: column;
     }
     .footer__menus1{
 
@@ -1008,7 +1064,27 @@ width: 20%;
 
     }
     .footer__block2{
-
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__apps-wrapper{
+        display: flex;
+        flex-direction: row;
+        height: fit-content;
+    }
+    .footer__app{
+        background: #85C4E8;
+        border-radius: 100%;
+        padding: 0.3em;
+        width: 35px;
+        display: flex;
+        justify-content: center;
+        margin: 0 0.2em;
+    }
+    .footer__app:hover{
+        background: #D0E6F8;
+        transition: 1s;
     }
     .recommendation{
 
@@ -1017,7 +1093,7 @@ width: 20%;
 
     }
     .recommendation-logo{
-
+        padding: 0 1.5em;
     }
     .footer__copyrights p{
 
@@ -1135,7 +1211,6 @@ width: 20%;
 
     }
     .kabrita__slider{
-
     }
     .kabrita__slider-header{
 
@@ -1234,19 +1309,22 @@ width: 20%;
 
     }
     .footer__logo{
-
+        width: 17%;
     }
     .footer__menus1{
 
     }
     .footer__menu{
-
+    font-size: 14px;
     }
     .footer__menus1 a{
-
+    font-size: 14px;
     }
     .footer__menus1 p{
-
+        font-size: 14px;
+    }
+    .footer__logo-img img{
+        width: 100%;
     }
     .footer__block2{
 
@@ -1374,7 +1452,7 @@ width: 20%;
 
     }
     .kabrita__slider{
-
+        padding: 0;
     }
     .kabrita__slider:hover{
         transform: none;
@@ -1483,9 +1561,6 @@ width: 20%;
     .specproject__block2 a{
 
     }
-    .actions{
-
-    }
     .projects__header{
 
     }
@@ -1494,6 +1569,9 @@ width: 20%;
     }
     .actions{
 
+    }
+    .actions__block2:hover{
+        transform: none;
     }
     .actions__slider1{
 
@@ -1509,6 +1587,7 @@ width: 20%;
     }
     .footer__wrapper{
         border: none;
+        padding: 0;
     }
     .footer__block1{
         display: flex;
