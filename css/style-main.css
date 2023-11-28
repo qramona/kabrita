@@ -66,7 +66,6 @@ input{
     color: #53566e;
     opacity: 0.6;
     transition: 0.6s;
-    /*text-decoration: underline solid 1px;*/
 }
 .circle--active{
     background:#F08AB7;
@@ -102,15 +101,8 @@ input{
     height: 335px;
     background-size: cover;
     border-radius: 0 0 30% 30%;
-    /*width: 1000px;*/
 }
-/*.active{*/
-/*    border: #002169;*/
-/*    background: #002169;*/
-/*    width: 10px;*/
-/*    height: 10px;*/
-/*    border-radius: 10px;*/
-/*}*/
+
 #carouselExampleIndicators{
     border-radius: 10px;
 }
@@ -215,9 +207,6 @@ input{
 .header__second-slide-b{
     color: #002169;
 }
-.kabrita__sliders{
-
-}
 .kabrita__section-header{
     margin: 0;
 }
@@ -235,21 +224,7 @@ input{
     color: #002169;
 
 }
-.kabrita__sections-wrapper{
 
-}
-.kabrita__main-section{
-
-}
-.kabrita__filtration{
-
-}
-.filtration__main{
-
-}
-.filtration__main{
-
-}
 .filtration__main{
     display: flex;
     justify-content: center;
@@ -269,15 +244,7 @@ input{
     font-weight: 400;
     color: #002169;
 }
-.filtration-sets{
 
-}
-.filtration-boxs{
-
-}
-.filtration-presents{
-
-}
 .filtration__month-wrapper{
     width: 100%;
    text-align: center;
@@ -319,14 +286,7 @@ input{
     background-position: center;
     transition: 0.6s;
 }
-.filtration-label p{
 
-}
-.filtration__radio{
-}
-.kabrita__main-blocks{
-
-}
 .slider__descriprion{
     margin: 0 0 1em 0;
 }
@@ -406,16 +366,12 @@ transform: scale(1.1);
 .slider__sale{
     display: flex;
 }
-.sale-img{
 
-}
 .sale-percentage{
     font-size: 16px;
     color: #F08AB7;
 }
-.kabrita__slider-basket{
 
-}
 .slider__basket{
     display: flex;
     justify-content: center;
@@ -437,9 +393,7 @@ transform: scale(1.1);
     flex-direction: row-reverse;
     display: none;
 }
-.plus-btn,.minus-btn{
 
-}
 .slider__basket-amount input{
     display: flex;
     text-align: center;
@@ -508,6 +462,7 @@ transform: scale(1.1);
     font-size: 16px;
     padding: 0.5em 0;
     text-decoration: underline;
+    text-wrap: nowrap;
 
 }
 .specprojects__register:hover{
@@ -526,13 +481,7 @@ transform: scale(1.1);
     text-align: center;
 
 }
-.specproject__block2{
 
-}
-
-.specproject__block2 a{
-
-}
 .specprojects__h5{
     font-family: 'Comfortaa';
     color: #002169;
@@ -540,9 +489,7 @@ transform: scale(1.1);
     margin: 0;
     padding: 0.5em 0;
 }
-.actions{
 
-}
 .actions__wrapper{
     display: flex;
     justify-content: space-between;
@@ -566,22 +513,6 @@ transform: scale(1.1);
 
 
 }
-.projects__header{
-
-}
-
-.actions__slider1{
-
-}
-.header__carousel-b{
-
-}
-.actions__description{
-
-}
-.footer{
-
-}
 .footer__wrapper{
     display: flex;
     flex-direction: column;
@@ -596,29 +527,24 @@ transform: scale(1.1);
 .footer__logo{
 width: 20%;
 }
-.footer__menus1{
 
-}
 .footer__menu{
     display: none;
     font-family: 'Open Sans';
     color: #002169;
     font-size: 16px;
 }
-.footer__menus1 a,.footer__menus1 a:hover,.footer__menus1 p{
+.footer__menus1 a,.footer__menus1 p{
     font-family: 'Open Sans';
     color: #002169;
     font-size: 16px;
 }
-.footer__menus1 p{
 
-}
 .footer__block2{
     display: flex;
     flex-direction: column;
 }
-.footer__app{
-}
+
 .recommendation{
     font-family: 'Open Sans';
     font-weight: 100;
@@ -630,45 +556,265 @@ width: 20%;
     justify-content: right;
     align-items: center;
 }
-.recommendation-logo{
 
-}
 .footer__copyrights p{
     padding: 1em 0;
 }
+/*buy__kabrita */
+.main__to-buy{
+
+}
+.main__to-buy--wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.to-buy__h3{
+    display: flex;
+    justify-content: left;
+    font-family: 'Comfortaa';
+    font-size: 36px;
+    color: #002169;
+}
+.main__online-offline{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.5em 0;
+}
+.kabrita__storage{
+    background: #EDF7FF;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    padding: 0.5em 0;
+}
+.storage-img{
+
+}
+.kabrita__storage-b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.storage__buttons-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+}
+.offline-btn-on,.online-btn-on{
+    background: transparent;
+}
+/*.offline-btn-on,.online-btn-on,*/#offline-on,#online-on{
+    background: transparent;
+    display: none;
+}
+.offline-btn-off{
+background: transparent;
+}
+.kabrita__storage{
+
+}
+.blocks__offline-to-buy{
+    display: none;
+    flex-direction: column;
+    border: solid #85C4E8 1px;
+    border-radius: 15px;
+
+}
+.block__online-to-buy{
+
+}
+.blocks-to-buy{
+    padding: 3em 4em;
+}
+.block__offline-to-buy{
+
+}
+.block__to-buy--title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #002169;
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+.wrapper__to-buy{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 1em 0;
+}
+.to-buy-img{
+
+}
+.to-buy-img:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+.storage-btn{
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+}
+.storage-btn b {
+    color: #002169;
+    font-size: 16px;
+    border: solid #85C4E8 1px;
+    padding: 0.5em 2em;
+    border-radius: 25px;
+}
+.kabrita__storage-b{
+    font-family: 'Comfortaa';
+    color: #002169;
+}
+.storage-btn b:hover{
+    color: #ffffff;
+    background: #D1E7F9;
+    transition: 1s;
+}
+.block__online-to-buy{
+
+}
+.block__online-to-buy h3{
+    font-family: 'Comfortaa';
+    font-size: 18px;
+    text-align: center;
+    color: #002169;
+}
+
+.blocks__online-to-buy{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+.block-to-buy{
+    flex-direction: column;
+    padding: 3em 2em;
+    border: solid #85C4E8 1px;
+    border-radius: 15px;
+    display: none;
+}
+.block__online-img{
+
+}
+.block__online-img:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.buy__form{
+
+}
+.kabrita__buy-form-wrapper{
+    display: flex;
+    background: #D0E6F8;
+    border-radius: 15px;
+    padding: 0 4em;
+    margin: 4em 0;
+    width: 100%;
+}
+.kabrita__buy-form-block1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.buy__form-text{
+
+}
+.buy-form--h3{
+    font-family: 'Comfortaa';
+    font-size: 36px;
+    color: #002169;
+}
+.buy-form--p{
+    margin: 0;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    color: #002169;
+}
+.buy-form-p{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #002169;
+    margin: 0;
+    padding: 0.5em;
+}
+
+.buy-forms{
+    display: flex;
+    flex-direction: column;
+    width: 24em;
+
+}
+.buy-form__input{
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-radius: 10px;
+    color: #002169;
+    font-family: 'Comfortaa';
+}
+.buy-form__p{
+
+}
+.buy-form__checkbox{
+    display: flex;
+}
+.buy-form__subscribe{
+    border-radius: 30px;
+    background: #85C4E8;
+    color: #ffffff;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    width: 50%;
+}
+.buy-form__subscribe-p{
+    margin: 0;
+    padding: 0.5em;
+}
+.kabrita__buy-form-block2{
+
+}
+.kabrita__buy-form-img{
+
+}
 @media screen and (min-width: 1600px) {
 
-    .header__first-slide,.header__second-slide,.header__third-slide{
+    .header__first-slide, .header__second-slide, .header__third-slide {
         border-radius: 0 0 23% 23%;
     }
-    .slider__wrapper{
+
+    .slider__wrapper {
         margin: 6% 0 0 0;
     }
-    .header-carousel__p{
+
+    .header-carousel__p {
         font-size: 18px;
         line-height: 28px;
     }
-    .header__kabrita-wrapper{
 
-    }
-    .header__kabrita-b,.header__kabrita-p{
+    .header__kabrita-b, .header__kabrita-p {
         font-size: 20px;
     }
-    .filtration__month-wrapper{
+
+    .filtration__month-wrapper {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         font-size: 16px;
         color: #002169;
     }
-    .kabrita__sections-wrapper{
+
+    .kabrita__sections-wrapper {
         display: flex;
         flex-direction: column;
         justify-content: center;
         width: 100%;
         align-items: end;
     }
-    .kabrita__main-section{
+
+    .kabrita__main-section {
         display: flex;
         flex-direction: row;
         width: 100%;
@@ -676,103 +822,110 @@ width: 20%;
         justify-content: space-between;
 
     }
-    .kabrita__main-blocks{
+
+    .kabrita__main-blocks {
         width: 75%;
     }
-    .kabrita__filtration{
+
+    .kabrita__filtration {
         width: 20%;
     }
-    .filtration-label{
+
+    .filtration-label {
         width: 100%;
     }
-    .kabrita__section-header{
+
+    .kabrita__section-header {
         margin: 2em 0;
     }
-    .kabrita__slider{
+
+    .kabrita__slider {
         padding: 2em;
     }
-    .slider__descriprion{
+
+    .slider__descriprion {
         margin: 3em 0;
     }
-    .slider__descriprion h3{
+
+    .slider__descriprion h3 {
         font-size: 36px;
     }
-    .specprojects__more:hover{
+
+    .specprojects__more:hover {
         background: #D0E6F8;
         border: #85C4E8 solid 1px;
         opacity: 0.9;
         color: #ffffff;
         transition: 1s;
     }
-    .slider__descriprion p{
+
+    .slider__descriprion p {
         font-size: 18px;
     }
-    .projects__wrapper{
+
+    .projects__wrapper {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
     }
-    .specprojects,.actions{
+
+    .specprojects, .actions {
         width: 47%;
     }
-    .specprojects__wrapper,.actions__wrapper{
+
+    .specprojects__wrapper, .actions__wrapper {
         height: 320px;
     }
-    .specprojects__wrapper{
+
+    .specprojects__wrapper {
         display: flex;
-        flex-direction:row;
+        flex-direction: row;
         justify-content: space-between;
         width: 100%;
 
     }
-    .specprojects__block1,.specprojects__block2{
-    width: 45%;
+
+    .specprojects__block1, .specprojects__block2 {
+        width: 45%;
     }
-    .specprojects__video>img{
+
+    .specprojects__video > img {
         display: flex;
         width: -webkit-fill-available;
     }
-    .actions__block2:hover{
+
+    .actions__block2:hover {
         transform: scale(1.1);
         transition: 1s;
     }
-    .footer{
 
-    }
-    .footer__wrapper{
+    .footer__wrapper {
         padding: 3em 2em;
     }
-    .footer__logo{
 
+    .footer__number-wrapper {
+        display: none;
     }
-    .footer__logo-img{
 
-    }
-    .footer__number-wrapper{
-      display: none;
-    }
-    .footer__number-img{
-
-    }
-    .footer__menu{
+    .footer__menu {
         display: flex;
         flex-direction: column;
     }
-    .footer__block1{
 
-    }
-    .footer__block2{
+    .footer__block2 {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .footer__apps-wrapper{
+
+    .footer__apps-wrapper {
         display: flex;
         flex-direction: row;
         height: fit-content;
     }
-    .footer__app{
+
+    .footer__app {
         background: #85C4E8;
         border-radius: 100%;
         padding: 0.3em;
@@ -781,12 +934,154 @@ width: 20%;
         justify-content: center;
         margin: 0 0.2em;
     }
-    .footer__app:hover{
+
+    .footer__app:hover {
         background: #D0E6F8;
         transition: 1s;
     }
-    .recommendation-logo{
+
+    .recommendation-logo {
         padding: 0 2em;
+    }
+
+    /*buy__kabrita */
+    .main__to-buy {
+
+    }
+
+    .main__to-buy--wrapper {
+
+    }
+
+    .to-buy__h3 {
+
+    }
+
+    .main__online-offline {
+
+    }
+
+    .kabrita__storage {
+
+    }
+
+    .storage-img {
+
+    }
+
+    .kabrita__storage-b {
+
+    }
+
+    .storage__buttons-img {
+
+    }
+
+    .offline-btn-on {
+
+    }
+
+    .offline-btn-off {
+
+    }
+
+    .kabrita__storage {
+
+    }
+
+    .blocks__offline-to-buy {
+
+    }
+
+    .blocks-to-buy {
+
+    }
+
+    .block__offline-to-buy {
+
+    }
+
+    .block__to-buy--title {
+
+    }
+    .wrapper__to-buy{
+
+    }
+
+    .to-buy-img {
+
+    }
+
+    .storage-btn {
+
+    }
+
+    .block__online-to-buy {
+
+    }
+
+    .block-to-buy {
+
+    }
+
+    .block__online-img {
+
+    }
+
+    .buy__form {
+
+    }
+
+    .kabrita__buy-form-wrapper {
+
+    }
+
+    .kabrita__buy-form-block1 {
+
+    }
+
+    .buy__form-text {
+
+    }
+
+    .buy-form--h3 {
+
+    }
+
+    .buy-form--p {
+
+    }
+
+    .buy-forms {
+
+    }
+
+    .buy-form__input {
+
+    }
+
+    .buy-form__p {
+
+    }
+
+    .buy-form__checkbox {
+
+    }
+
+    .buy-form__subscribe {
+
+    }
+
+    .buy-form__subscribe-p {
+
+    }
+
+    .kabrita__buy-form-block2 {
+
+    }
+
+    .kabrita__buy-form-img {
+
     }
 }
 @media screen and (max-width: 1600px) {
@@ -802,24 +1097,9 @@ width: 20%;
     .header-carousel__p{
         font-size: 16px;
     }
-    .kabrita__sliders{
-
-    }
 
     .kabrita__section-header{
     margin: 2em 0;
-    }
-    .header__kabrita{
-
-    }
-    .header__kabrita-wrapper{
-
-    }
-    .header__kabrita-wrapper{
-
-    }
-    .header__kabrita-b,.header__kabrita-p{
-
     }
     .kabrita__sections-wrapper{
         display: flex;
@@ -838,18 +1118,6 @@ width: 20%;
     }
     .filtration-label{
         width: 100%;
-    }
-    .filtration__main{
-
-    }
-    .filtration-sets{
-
-    }
-    .filtration-boxs{
-
-    }
-    .filtration-presents{
-
     }
     .filtration__month-wrapper{
         display: flex;
@@ -873,66 +1141,14 @@ width: 20%;
     .slider__descriprion p{
     font-size: 16px;
     }
-    .kabrita__main-slide{
-
-    }
-    .kabrita__month{
-
-    }
-    .kabrita__filter{
-
-    }
-    .kabrita__month-p{
-
-    }
-
     .kabrita__slider{
         padding: 2em;
-    }
-    .kabrita__slider-header{
-
-    }
-    .kabrita__slider-p{
-
-    }
-    .kabrita__slider-price{
-
-    }
-    .kabrita__current-price{
-
-    }
-    .slider__old-price{
-
-    }
-    .slider__sale{
-
-    }
-    .sale-img{
-
-    }
-    .sale-percentage{
-
     }
     .kabrita__slider-basket{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-    .slider__basket{
-
-    }
-    .slider__basket-amount{
-
-    }
-    .plus-btn,.minus-btn{
-
-    }
-    .slider__basket-amount input{
-
-    }
-    .projects{
-
     }
     .projects__wrapper{
         display: flex;
@@ -950,29 +1166,12 @@ width: 20%;
         display: flex;
         flex-direction: row;
     }
-    .specprojects__block1{
-
-    }
     .specprojects__block1,.specprojects__block2{
         width: 50%;
     }
     .specprojects__video>img{
         display: flex;
         width: -webkit-fill-available;
-    }
-    .specprojects__h3{
-
-    }
-    .specprojects__h5{
-
-    }
-    .specprojects__register{
-
-    }
-    .specprojects__register:hover{
-    }
-    .specprojects__more,.specprojects__more:hover{
-
     }
     .specprojects__more:hover{
         background: #D0E6F8;
@@ -984,84 +1183,23 @@ width: 20%;
     .specprojects__slider{
         width: 100%;
     }
-    .projects__header{
-
-    }
-    .specproject__block1{
-
-    }
-    .specproject__block1 b{
-
-    }
-    .specproject__block1 a{
-
-    }
-    .specproject__block2{
-
-    }
-    .specproject__block2 a{
-
-    }
-    .actions{
-
-    }
-    .actions__wrapper{
-
-    }
     .actions__block2:hover{
         transform: scale(1.1);
         transition: 1s;
     }
-    .projects__header{
-
-    }
-    .actions__slider1{
-
-    }
-    .header__carousel-b{
-
-    }
-    .actions__description{
-
-    }
-    .footer{
-
-    }
     .footer__wrapper{
         padding: 3em 2em;
     }
-    .footer__block1{
-
-    }
-    .footer__logo{
-
-    }
-
-    .footer__logo-img{
-
-    }
-
     .footer__number-wrapper{
         display: none;
     }
-    .footer__number-img{
 
-    }
     .footer__menu{
         display: flex;
         flex-direction: column;
     }
-    .footer__menus1{
-
-    }
     .footer__menu{
         display: flex;
-    }
-    .footer__menus1 a{
-
-    }
-    .footer__menus1 p{
-
     }
     .footer__block2{
         display: flex;
@@ -1086,26 +1224,158 @@ width: 20%;
         background: #D0E6F8;
         transition: 1s;
     }
-    .recommendation{
 
-    }
-    .recommendation-logos{
-
-    }
     .recommendation-logo{
         padding: 0 1.5em;
     }
     .footer__copyrights p{
 
     }
+    /*buy__kabrita */
+    .main__to-buy {
+
+    }
+
+    .main__to-buy--wrapper {
+
+    }
+
+    .to-buy__h3 {
+
+    }
+
+    .main__online-offline {
+
+    }
+
+    .kabrita__storage {
+
+    }
+
+    .storage-img {
+
+    }
+
+    .kabrita__storage-b {
+
+    }
+
+    .storage__buttons-img {
+
+    }
+
+    .offline-btn-on {
+
+    }
+
+    .offline-btn-off {
+
+    }
+
+    .kabrita__storage {
+
+    }
+
+    .blocks__offline-to-buy {
+
+    }
+
+    .blocks-to-buy {
+
+    }
+
+    .block__offline-to-buy {
+
+    }
+
+    .block__to-buy--title {
+
+    }
+    .wrapper__to-buy{
+
+    }
+    .to-buy-img {
+
+    }
+
+    .storage-btn {
+
+    }
+
+    .block__online-to-buy {
+
+    }
+
+    .block-to-buy {
+
+    }
+
+    .block__online-img {
+
+    }
+
+    .buy__form {
+
+    }
+
+    .kabrita__buy-form-wrapper {
+
+    }
+
+    .kabrita__buy-form-block1 {
+
+    }
+
+    .buy__form-text {
+
+    }
+
+    .buy-form--h3 {
+
+    }
+
+    .buy-form--p {
+
+    }
+
+    .buy-forms {
+
+    }
+
+    .buy-form__input {
+
+    }
+
+    .buy-form__p {
+
+    }
+
+    .buy-form__checkbox {
+
+    }
+
+    .buy-form__subscribe {
+
+    }
+
+    .buy-form__subscribe-p {
+
+    }
+
+    .kabrita__buy-form-block2 {
+
+    }
+
+    .kabrita__buy-form-img {
+
+    }
+
 }
 @media screen and (max-width: 1200px) {
     .header__first-slide,.header__second-slide,.header__third-slide{
     border-radius: 0 0 35% 35%;
     }
-    .slider__wrapper{
 
-    }
     .logo{
         height: 6.6em;
     }
@@ -1119,12 +1389,7 @@ width: 20%;
         padding: 0 0.9rem;
         font-size: 13px;
     }
-    .header__address img{
 
-    }
-    .header__basket a{
-
-    }
     .header__basket img{
         width: 70px;
 
@@ -1144,47 +1409,15 @@ width: 20%;
     .kabrita__section-header{
         margin: 1em 0;
     }
-    .header__kabrita{
-
-    }
-    .header__kabrita-wrapper{
-
-    }
     .header__kabrita-b,.header__kabrita-p{
         width: 75%;
         font-size: 18px;
     }
-    .kabrita__sections-wrapper{
 
-    }
     .kabrita__main-section{
         display: flex;
         flex-direction: row;
         width: 100%;
-    }
-    .kabrita__filtration{
-
-    }
-    .filtration__main{
-
-    }
-    .filtration__main-section{
-
-    }
-    .filtration-sets{
-
-    }
-    .filtration-boxs{
-
-    }
-    .filtration-presents{
-
-    }
-    .filtration__month-wrapper{
-
-    }
-    .filtration__radio{
-
     }
     .kabrita__main-blocks{
     width: 75%;
@@ -1192,128 +1425,16 @@ width: 20%;
     .slider__descriprion{
         margin: 0 0 2em 0;
     }
-    .slider__descriprion h3{
-
-    }
-    .slider__descriprion p{
-
-    }
-    .kabrita__main-slide{
-
-    }
-    .kabrita__month{
-
-    }
-    .kabrita__filter{
-
-    }
-    .kabrita__month-p{
-
-    }
-    .kabrita__slider{
-    }
-    .kabrita__slider-header{
-
-    }
-    .kabrita__slider-p{
-
-    }
-    .kabrita__slider-price{
-
-    }
-    .kabrita__current-price{
-
-    }
-    .slider__old-price{
-
-    }
-    .slider__sale{
-
-    }
-    .sale-img{
-
-    }
-    .sale-percentage{
-
-    }
-    .kabrita__slider-basket{
-
-    }
-    .slider__basket{
-
-    }
-    .slider__basket-amount{
-
-    }
-    .plus-btn,.minus-btn{
-
-    }
-    .slider__basket-amount input{
-
-    }
-    .projects{
-
-    }
     .projects__wrapper{
         display: flex;
         flex-direction: row;
         align-items: center;
     }
-    .specprojects{
 
-    }
-    .specprojects__h3{
-
-    }
-
-    .projects__header{
-
-    }
-    .specproject__block1{
-
-    }
-    .specproject__block1 b{
-
-    }
-    .specproject__block1 a{
-
-    }
-    .specproject__block2{
-
-    }
-    .specproject__block2 a{
-
-    }
-    .actions{
-
-    }
-    .projects__header{
-
-    }
-    .actions{
-
-    }
-    .actions__slider1{
-
-    }
-    .header__carousel-b{
-
-    }
-    .actions__description{
-
-    }
-    .footer{
-
-    }
-    .footer__block1{
-
-    }
     .footer__logo{
         width: 17%;
     }
-    .footer__menus1{
 
-    }
     .footer__menu{
     font-size: 14px;
     }
@@ -1326,38 +1447,153 @@ width: 20%;
     .footer__logo-img img{
         width: 100%;
     }
-    .footer__block2{
-
-    }
-    .recommendation{
-
-    }
-    .recommendation-logos{
-
-    }
-    .recommendation-logo{
-
-    }
-    .footer__copyrights p{
+    /*buy__kabrita */
+    .main__to-buy {
 
     }
 
+    .main__to-buy--wrapper {
+
+    }
+
+    .to-buy__h3 {
+
+    }
+
+    .main__online-offline {
+
+    }
+
+    .kabrita__storage {
+
+    }
+
+    .storage-img {
+
+    }
+
+    .kabrita__storage-b {
+
+    }
+
+    .storage__buttons-img {
+
+    }
+
+    .offline-btn-on {
+
+    }
+
+    .offline-btn-off {
+
+    }
+
+    .kabrita__storage {
+
+    }
+
+    .blocks__offline-to-buy {
+
+    }
+
+    .blocks-to-buy {
+
+    }
+
+    .block__offline-to-buy {
+
+    }
+
+    .block__to-buy--title {
+
+    }
+    .wrapper__to-buy{
+
+    }
+
+    .to-buy-img {
+
+    }
+
+    .storage-btn {
+
+    }
+
+    .block__online-to-buy {
+
+    }
+
+    .block-to-buy {
+
+    }
+
+    .block__online-img {
+
+    }
+
+    .buy__form {
+
+    }
+
+    .kabrita__buy-form-wrapper {
+
+    }
+
+    .kabrita__buy-form-block1 {
+
+    }
+
+    .buy__form-text {
+
+    }
+
+    .buy-form--h3 {
+
+    }
+
+    .buy-form--p {
+
+    }
+
+    .buy-forms {
+
+    }
+
+    .buy-form__input {
+
+    }
+
+    .buy-form__p {
+
+    }
+
+    .buy-form__checkbox {
+
+    }
+
+    .buy-form__subscribe {
+
+    }
+
+    .buy-form__subscribe-p {
+
+    }
+
+    .kabrita__buy-form-block2 {
+
+    }
+
+    .kabrita__buy-form-img {
+
+    }
 }
 @media screen and (max-width: 992px) {
     .logo>img{
         width: 130px;
     }
-    .header__address{
-    }
     .header__nav-li{
         padding: 0 0.4rem;
         font-size: 13px;
-    }
-    .header__address img{
-
-    }
-    .header__basket a{
-
     }
     .header__basket img{
         width: 60px;
@@ -1382,17 +1618,8 @@ width: 20%;
         margin: 3% 0 0 0;
 
     }
-    .kabrita__sliders{
-
-     }
-    .kabrita__section-header{
-
-    }
     .header__kabrita{
         font-size: 30px;
-    }
-    .header__kabrita-wrapper{
-
     }
     .header__kabrita-b,.header__kabrita-p{
         width: 80%;
@@ -1409,48 +1636,16 @@ width: 20%;
     .kabrita__filtration{
     width: 100%;
     }
-    .filtration__main{
-
-    }
-    .filtration-sets{
-
-    }
-    .filtration-boxs{
-
-    }
-    .filtration-presents{
-
-    }
     .filtration__month-wrapper{
     flex-direction: row;
-    }
-    .filtration__radio{
-
     }
     .kabrita__main-blocks{
     width: 100%;
     }
-    .slider__descriprion{
-
-    }
-    .slider__descriprion h3{
-
-    }
     .slider__descriprion p{
      font-size: 14px;
     }
-    .kabrita__main-slide{
 
-    }
-    .kabrita__month{
-
-    }
-    .kabrita__filter{
-
-    }
-    .kabrita__month-p{
-
-    }
     .kabrita__slider{
         padding: 0;
     }
@@ -1458,46 +1653,16 @@ width: 20%;
         transform: none;
     }
     .kabrita__slider-header{
-
-    }
-    .kabrita__slider-p{
-
+    font-size: 16px;
     }
     .kabrita__slider-price{
-
-    }
-    .kabrita__current-price{
-
+        font-size: 20px;
     }
     .slider__old-price{
-
-    }
-    .slider__sale{
-
-    }
-    .sale-img{
-
+    font-size: 14px;
     }
     .sale-percentage{
-
-    }
-    .kabrita__slider-basket{
-
-    }
-    .slider__basket{
-
-    }
-    .slider__basket-amount{
-
-    }
-    .plus-btn,.minus-btn{
-
-    }
-    .slider__basket-amount input{
-
-    }
-    .projects{
-
+    font-size: 14px;
     }
     .projects__wrapper{
         display: flex;
@@ -1506,14 +1671,8 @@ width: 20%;
     .specprojects,.actions{
         width: 100%;
     }
-    .specprojects__h3{
-
-    }
     .specprojects__h5{
         font-size: 18px;
-    }
-    .projects__header{
-
     }
     .specprojects__wrapper{
         display: flex;
@@ -1521,9 +1680,6 @@ width: 20%;
         align-items: center;
         height: auto;
         padding: 1em;
-    }
-    .specprojects__wrapper,.actions__wrapper{
-
     }
     .specprojects__block1{
         display: flex;
@@ -1546,44 +1702,11 @@ width: 20%;
         width: 80%;
     }
 
-    .specproject__block1{
-
-    }
-    .specproject__block1 b{
-
-    }
-    .specproject__block1 a{
-
-    }
-    .specproject__block2{
-
-    }
-    .specproject__block2 a{
-
-    }
-    .projects__header{
-
-    }
     .projects__h3{
         margin: 1em 0;
     }
-    .actions{
-
-    }
     .actions__block2:hover{
         transform: none;
-    }
-    .actions__slider1{
-
-    }
-    .header__carousel-b{
-
-    }
-    .actions__description{
-
-    }
-    .footer{
-
     }
     .footer__wrapper{
         border: none;
@@ -1593,7 +1716,6 @@ width: 20%;
         display: flex;
         flex-direction: column;
         text-align: center;
-
     }
     .footer__logo{
     width: 100%;
@@ -1617,27 +1739,14 @@ width: 20%;
         color: #002169;
         margin: 0;
     }
-
-    .footer__number-wrapper>a{
-
-    }
     .footer__schedule{
         font-family: "Open Sans";
         font-size: 14px;
         color: #002169;
     }
 
-    .footer__menus1{
-
-    }
     .footer__menu{
     display: none;
-    }
-    .footer__menus1 a{
-
-    }
-    .footer__menus1 p{
-
     }
     .footer__apps-wrapper{
         display: flex;
@@ -1654,12 +1763,6 @@ width: 20%;
     .footer__app:hover{
         background: #85C4E8;
         transition: none;
-    }
-    .footer__app-img{
-
-    }
-    .footer__block2{
-
     }
     .recommendation{
         display: flex;
@@ -1685,6 +1788,159 @@ width: 20%;
         font-size: 12px;
         color: #002169;
     }
+    /*buy__kabrita */
+    .main__to-buy {
+
+    }
+
+    .main__to-buy--wrapper {
+
+    }
+
+    .to-buy__h3 {
+    font-size: 20px;
+    }
+
+    .main__online-offline {
+
+    }
+
+    .kabrita__storage {
+
+    }
+
+    .storage-img {
+
+    }
+
+    .kabrita__storage-b {
+        font-size: 13px;
+    }
+
+    .storage__buttons-img {
+
+    }
+
+    .offline-btn-on {
+
+    }
+
+    .offline-btn-off {
+
+    }
+
+    .kabrita__storage {
+
+    }
+
+    .blocks__offline-to-buy {
+
+    }
+
+    .blocks-to-buy,.block-to-buy {
+        display: none;
+    }
+
+    .block__offline-to-buy {
+
+    }
+
+    .block__to-buy--title {
+
+    }
+    .wrapper__to-buy{
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    .to-buy-img {
+
+    }
+    .to-buy-img:hover{
+        transform: none;
+    }
+
+    .storage-btn {
+
+    }
+
+    .block__online-to-buy {
+
+    }
+    .block-to-buy {
+
+    }
+
+    .block__online-img {
+
+    }
+
+    .block__online-img:hover{
+        transition: none;
+        transform: none;
+    }
+
+    .buy-forms{
+        width: 100%;
+        padding: 2em 0;
+    }
+
+    .kabrita__buy-form-wrapper {
+        padding: 3em;
+    }
+
+    .kabrita__buy-form-block1 {
+
+    }
+
+    .buy__form-text {
+
+    }
+
+    .buy-form--h3 {
+    font-size: 25px;
+    }
+
+    .buy-form--p {
+    font-size: 13px;
+    }
+
+    .buy-forms {
+
+    }
+
+    .buy-form__input {
+    font-size: 13px;
+    }
+
+    .buy-form-p {
+        font-size: 11px;
+        margin: 0;
+        padding: 0.5em;
+    }
+
+    .buy-form__checkbox {
+
+    }
+
+    .buy-form__subscribe {
+        display: grid;
+        width: 80%;
+        align-self: center;
+        padding: 0.3em;
+    }
+
+    .buy-form__subscribe-p {
+
+    }
+
+    .kabrita__buy-form-block2 {
+    display: none;
+    }
+
+    .kabrita__buy-form-img {
+
+    }
 }
 @media screen and (max-width: 768px) {
     .header{
@@ -1695,9 +1951,6 @@ width: 20%;
         display: flex;
         justify-content: center;
         width: 100%;
-    }
-    .mobile-logo>img{
-
     }
     .header__nac{
         width: 100%;
@@ -1722,8 +1975,6 @@ width: 20%;
     .header__menu-items{
         margin: 1rem -15%;
     }
-    .header__address{
-    }
     .header__nav-ul,.header__address{
         display: none;
     }
@@ -1738,21 +1989,7 @@ width: 20%;
     .header__first-slide,.header__second-slide,.header__third-slide{
         border-radius: 0 0 30% 30%;
     }
-    .slider__wrapper{
 
-    }
-    .header__address img{
-
-    }
-    .header__basket a{
-
-    }
-    .header__basket img{
-
-    }
-    .circle--active{
-
-    }
     .header-carousel__b{
         font-size: 28px;
     }
@@ -1761,50 +1998,8 @@ width: 20%;
         font-size: 12px;
         width: 56%;
     }
-    .kabrita__sliders{
-
-    }
-    .kabrita__section-header{
-
-    }
-    .header__kabrita{
-
-    }
-    .header__kabrita-wrapper{
-
-    }
     .header__kabrita-b,.header__kabrita-p{
         font-size: 14px;
-    }
-    .kabrita__sections-wrapper{
-
-    }
-    .kabrita__main-section{
-
-    }
-    .kabrita__filtration{
-
-    }
-    .filtration__main{
-
-    }
-    .filtration-sets{
-
-    }
-    .filtration-boxs{
-
-    }
-    .filtration-presents{
-
-    }
-    .filtration__month-wrapper{
-
-    }
-    .filtration__radio{
-
-    }
-    .kabrita__main-blocks{
-
     }
     .slider__descriprion{
     margin: 0 0 1em 0;
@@ -1815,64 +2010,6 @@ width: 20%;
     .slider__descriprion p{
         font-size: 14px;
     }
-    .kabrita__main-slide{
-
-    }
-    .kabrita__month{
-
-    }
-    .kabrita__filter{
-
-    }
-    .kabrita__month-p{
-
-    }
-
-    .kabrita__slider{
-
-    }
-    .kabrita__slider-header{
-
-    }
-    .kabrita__slider-p{
-
-    }
-    .kabrita__slider-price{
-
-    }
-    .kabrita__current-price{
-
-    }
-    .slider__old-price{
-
-    }
-    .slider__sale{
-
-    }
-    .sale-img{
-
-    }
-    .sale-percentage{
-
-    }
-    .kabrita__slider-basket{
-
-    }
-    .slider__basket{
-
-    }
-    .slider__basket-amount{
-
-    }
-    .plus-btn,.minus-btn{
-
-    }
-    .slider__basket-amount input{
-
-    }
-    .projects{
-
-    }
     .projects__h3,.actions__h3{
         font-size: 30px;
     }
@@ -1881,97 +2018,151 @@ width: 20%;
         flex-direction: column;
         align-items: center;
     }
-    .specprojects,.actions{
-    }
-    .specprojects__wrapper{
-
-    }
-    .specprojects__block1{
-    }
-    .specprojects__h3,.actions__h3{
-    }
-    .projects__header{
-
-    }
-    .specproject__block1{
-
-    }
-    .specproject__block1 b{
-
-    }
-    .specproject__block1 a{
-
-    }
-    .specproject__block2{
-
-    }
-    .specproject__block2 a{
-
-    }
-    .actions{
-
-    }
-    .projects__header{
-
-    }
-    .actions{
-
-    }
-    .actions__block1{
-
-    }
-    .actions__block2{
-
-    }
-    .actions__block2 img{
-
-    }
-    .actions__slider1{
-
-    }
-    .header__carousel-b{
-
-    }
-    .actions__description{
-
-    }
-    .footer{
-
-    }
-    .footer__block1{
-
-    }
-    .footer__logo{
-
-    }
-    .footer__menus1{
-
-    }
-    .footer__menu{
-
-    }
-    .footer__menus1 a{
-
-    }
-    .footer__menus1 p{
-
-    }
-    .footer__block2{
-
-    }
-    .recommendation{
-
-    }
-    .recommendation-logos{
-
-    }
-    .recommendation-logo{
-
-    }
-    .footer__copyrights p{
+    /*buy__kabrita */
+    .main__to-buy {
 
     }
 
+    .main__to-buy--wrapper {
+
+    }
+
+    .to-buy__h3 {
+
+    }
+
+    .main__online-offline {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .kabrita__storage {
+        width: 100%;
+        margin: 0.5em;
+    }
+
+    .storage-img {
+
+    }
+
+    .kabrita__storage-b {
+
+    }
+
+    .storage__buttons-img {
+
+    }
+
+    .offline-btn-on {
+
+    }
+
+    .offline-btn-off {
+
+    }
+
+    .kabrita__storage {
+
+    }
+
+    .blocks__offline-to-buy {
+
+    }
+
+    .blocks-to-buy {
+
+    }
+
+    .block__offline-to-buy {
+
+    }
+
+    .block__to-buy--title {
+
+    }
+    .wrapper__to-buy{
+
+    }
+
+    .to-buy-img {
+
+    }
+
+    .storage-btn {
+
+    }
+
+    .block__online-to-buy {
+
+    }
+    .goods__online-to-buy2,.goods__online-to-buy3{
+        display: none;
+    }
+
+    .block-to-buy {
+
+    }
+
+    .block__online-img {
+        width: 100%;
+    }
+
+    .buy__form {
+
+    }
+
+    .kabrita__buy-form-wrapper {
+
+    }
+
+    .kabrita__buy-form-block1 {
+
+    }
+
+    .buy__form-text {
+
+    }
+
+    .buy-form--h3 {
+
+    }
+
+    .buy-form--p {
+
+    }
+
+    .buy-forms {
+
+    }
+
+    .buy-form__input {
+
+    }
+
+    .buy-form__p {
+
+    }
+
+    .buy-form__checkbox {
+
+    }
+
+    .buy-form__subscribe {
+
+    }
+
+    .buy-form__subscribe-p {
+
+    }
+
+    .kabrita__buy-form-block2 {
+
+    }
+
+    .kabrita__buy-form-img {
+
+    }
 }
 @media screen and (max-width: 576px) {
     .logo>img{
@@ -1980,23 +2171,9 @@ width: 20%;
     .header__menu-items{
         margin: 1rem -9%;
     }
-    .header__address{
-    }
     .header__nav-li{
         padding: 0 0.9rem;
         font-size: 13px;
-    }
-    .header__address img{
-
-    }
-    .header__basket a{
-
-    }
-    .header__basket img{
-
-    }
-    .circle--active{
-
     }
     .header-carousel__b{
         font-size: 21px;
@@ -2011,10 +2188,7 @@ width: 20%;
         background-size: cover;
     }
     .slider__wrapper{
-    margin: 12% 0 0 0;
-    }
-    .kabrita__sliders{
-
+        margin: 12% 0 0 0;
     }
     .kabrita__section-header{
         margin: 0;
@@ -2023,55 +2197,16 @@ width: 20%;
     font-size: 20px;
         text-align: center;
     }
-    .header__kabrita-p{
-
-    }
-    .header__kabrita-wrapper{
-
-    }
     .header__kabrita-b,.header__kabrita-p{
-    font-size: 12px;
+        font-size: 12px;
         width: 99%;
         text-align: center;
-    }
-    .kabrita__sections-wrapper{
-
-    }
-    .kabrita__main-section{
-
-    }
-    .kabrita__filtration{
-
-    }
-    .filtration__main{
-
-    }
-    .filtration-sets{
-
-    }
-    .filtration-boxs{
-
-    }
-    .filtration-presents{
-
-    }
-    .filtration__month-wrapper{
-
-    }
-    .filtration__radio{
-
-    }
-    .kabrita__main-blocks{
-
     }
     .slider__descriprion{
     margin: 0 0 1em 0 ;
     }
-    .slider__descriprion h3{
-
-    }
     .slider__descriprion p{
-        font-size: 12px;
+        font-size: 13px;
     }
     .kabrita__main-slide{
         margin: 0;
@@ -2080,134 +2215,17 @@ width: 20%;
         display: flex;
 
     }
-    .kabrita__filter{
-
-    }
-    .kabrita__month-p{
-
-    }
-
-    .kabrita__slider{
-
-    }
-
     .kabrita__slider-header{
-
+    font-size: 20px;
     }
     .kabrita__slider-p{
-
+        font-size: 14px;
     }
-    .kabrita__slider-price{
-
-    }
-    .kabrita__current-price{
-
-    }
-    .slider__old-price{
-
-    }
-    .slider__sale{
-
-    }
-    .sale-img{
-
-    }
-    .sale-percentage{
-
-    }
-    .kabrita__slider-basket{
-
-    }
-    .slider__basket{
-
-    }
-    .slider__basket-amount{
-
-    }
-    .plus-btn,.minus-btn{
-
-    }
-    .slider__basket-amount input{
-
-    }
-    .projects{
-
-    }
-    .projects__wrapper{
-
-    }
-    .specprojects{
-
-    }
-    .projects__header{
-
-    }
-    .specproject__block1{
-
-    }
-    .specproject__block1 b{
-
-    }
-    .specproject__block1 a{
-
-    }
-    .specproject__block2{
-
-    }
-    .specproject__block2 a{
-
-    }
-
-    .projects__header{
-
-    }
-    .actions{
-
-    }
-    .actions__block1{
-
-    }
-    .actions__block2{
-
+    .specprojects__h5{
+        text-wrap: nowrap;
     }
     .actions__block2 img{
         width: 100%;
-    }
-    .actions__slider1{
-
-    }
-    .header__carousel-b{
-
-    }
-    .actions__description{
-
-    }
-    .footer{
-
-    }
-    .footer__block1{
-
-    }
-    .footer__logo{
-
-    }
-    .footer__menus1{
-
-    }
-    .footer__menu{
-
-    }
-    .footer__menus1 a{
-
-    }
-    .footer__menus1 p{
-
-    }
-    .footer__block2{
-
-    }
-    .recommendation{
-
     }
     .recommendation-logos{
         display: flex;
@@ -2219,7 +2237,142 @@ width: 20%;
         margin: 0 1em;
         width: 70%;
     }
-    .footer__copyrights p{
+    /*buy__kabrita */
+    .main__to-buy {
+
+    }
+
+    .main__to-buy--wrapper {
+
+    }
+
+    .to-buy__h3 {
+
+    }
+
+    .main__online-offline {
+
+    }
+
+    .kabrita__storage {
+
+    }
+
+    .storage-img {
+
+    }
+
+    .kabrita__storage-b {
+
+    }
+
+    .storage__buttons-img {
+
+    }
+
+    .offline-btn-on {
+    }
+
+    .offline-btn-off {
+
+    }
+
+    .kabrita__storage {
+
+    }
+
+    .blocks__offline-to-buy {
+
+    }
+
+    .blocks-to-buy {
+
+    }
+
+    .block__offline-to-buy {
+
+    }
+
+    .block__to-buy--title {
+
+    }
+    .wrapper__to-buy{
+
+    }
+
+    .to-buy-img {
+
+    }
+
+    .storage-btn {
+
+    }
+
+    .block__online-to-buy {
+
+    }
+
+    .block-to-buy {
+
+    }
+
+    .block__online-img {
+
+    }
+
+    .buy__form {
+
+    }
+
+    .kabrita__buy-form-wrapper {
+
+    }
+
+    .kabrita__buy-form-block1 {
+
+    }
+
+    .buy__form-text {
+
+    }
+
+    .buy-form--h3 {
+
+    }
+
+    .buy-form--p {
+
+    }
+
+    .buy-forms {
+
+    }
+
+    .buy-form__input {
+
+    }
+
+    .buy-form__p {
+
+    }
+
+    .buy-form__checkbox {
+
+    }
+
+    .buy-form__subscribe {
+
+    }
+
+    .buy-form__subscribe-p {
+
+    }
+
+    .kabrita__buy-form-block2 {
+
+    }
+
+    .kabrita__buy-form-img {
 
     }
 }
