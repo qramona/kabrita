@@ -47,7 +47,7 @@ $(document).ready(function (){
     //     //     $('#basket1').css('display','none');
     //     // })
     // ('').onclick
-
+    let mode = 'offBtn1'
     const kabritaOffline = document.getElementById('kabrita__offline')
     const kabritaOnline = document.getElementById('kabrita__online')
     const onBtn1 = document.getElementById('offline-on')
@@ -56,6 +56,13 @@ $(document).ready(function (){
     const offBtn2 = document.getElementById('online-off')
     const offlineBlocks = document.getElementById('blocks__offline-to-buy')
     const onlineBlocks = document.getElementById('blocks__online-to-buy')
+
+    // function pressBtn (nameBtn){
+    //     return function(){
+    //         mode = nameBtn
+    //     }
+    // }
+    // offBtn1.onclick = pressBtn('') // try circuit on the future
 
     offBtn1.onclick = function foo(){
         offBtn1.style.display = 'none';
