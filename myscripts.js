@@ -39,53 +39,162 @@ $(document).ready(function (){
             }
         }
     })
-    // let $carousel = $('.specprojects__slider');
-    // let owl = $carousel.data('owlCarousel');
-    // owl.reinit({items: 1});
-    //     // $('#basket1').click(function(){
-    //     //     $('#basket-amount1').css('display','flex');
-    //     //     $('#basket1').css('display','none');
-    //     // })
-    // ('').onclick
-    let mode = 'offBtn1'
-    const kabritaOffline = document.getElementById('kabrita__offline')
-    const kabritaOnline = document.getElementById('kabrita__online')
-    const onBtn1 = document.getElementById('offline-on')
-    const offBtn1 = document.getElementById('offline-off')
-    const onBtn2 = document.getElementById('online-on')
-    const offBtn2 = document.getElementById('online-off')
-    const offlineBlocks = document.getElementById('blocks__offline-to-buy')
-    const onlineBlocks = document.getElementById('blocks__online-to-buy')
-
-    // function pressBtn (nameBtn){
-    //     return function(){
-    //         mode = nameBtn
-    //     }
-    // }
-    // offBtn1.onclick = pressBtn('') // try circuit on the future
-
-    offBtn1.onclick = function foo(){
-        offBtn1.style.display = 'none';
-        onBtn1.style.display = 'flex';
-        offlineBlocks.style.display = 'flex';
-    }
-    onBtn1.onclick = function (){
-        offBtn1.style.display = 'flex';
-        onBtn1.style.display = 'none';
-        offlineBlocks.style.display = 'none';
-    }
-    //
-    offBtn2.onclick = function foo(){
-        offBtn2.style.display = 'none';
-        onBtn2.style.display = 'flex';
-        onlineBlocks.style.display = 'flex';
-    }
-    onBtn2.onclick = function (){
-        offBtn2.style.display = 'flex';
-        onBtn2.style.display = 'none';
-        onlineBlocks.style.display = 'none';
-    }
-
-
 
 });
+const basket01 = document.getElementById('basket1')
+const basket02 = document.getElementById('basket2')
+const basket03 = document.getElementById('basket3')
+const basket04 = document.getElementById('basket4')
+const basket05 = document.getElementById('basket5')
+const basket06 = document.getElementById('basket6')
+const basket07 = document.getElementById('basket7')
+const basket08 = document.getElementById('basket8')
+const basket09 = document.getElementById('basket9')
+const basketAmount1 = document.getElementById('basket-amount1')
+const basketAmount2 = document.getElementById('basket-amount2')
+const basketAmount3 = document.getElementById('basket-amount3')
+const basketAmount4 = document.getElementById('basket-amount4')
+const basketAmount5 = document.getElementById('basket-amount5')
+const basketAmount6 = document.getElementById('basket-amount6')
+const basketAmount7 = document.getElementById('basket-amount7')
+const basketAmount8 = document.getElementById('basket-amount8')
+const basketAmount9 = document.getElementById('basket-amount9')
+//
+
+
+function basket(basketId, basketAmountId) {
+    return function() {
+        return function() {
+            basketId.style.display = 'none';
+            basketAmountId.style.display = 'flex';
+        };
+    };
+}
+basket01.onclick = basket(basket01, basketAmount1)();
+basket02.onclick = basket(basket02, basketAmount2)();
+basket03.onclick = basket(basket03, basketAmount3)();
+basket04.onclick = basket(basket04, basketAmount4)();
+basket05.onclick = basket(basket05, basketAmount5)();
+basket06.onclick = basket(basket06, basketAmount6)();
+basket07.onclick = basket(basket07, basketAmount7)();
+basket08.onclick = basket(basket08, basketAmount8)();
+basket09.onclick = basket(basket09, basketAmount9)();
+//
+let count = 1;
+const plusbtn1 = document.getElementById('plus-btn1')
+const plusbtn2 = document.getElementById('plus-btn2')
+const plusbtn3 = document.getElementById('plus-btn3')
+const plusbtn4 = document.getElementById('plus-btn4')
+const plusbtn5 = document.getElementById('plus-btn5')
+const plusbtn6 = document.getElementById('plus-btn6')
+const plusbtn7 = document.getElementById('plus-btn7')
+const plusbtn8 = document.getElementById('plus-btn8')
+const plusbtn9 = document.getElementById('plus-btn9')
+//
+const minusbtn1 = document.getElementById('minus-btn1')
+const minusbtn2 = document.getElementById('minus-btn2')
+const minusbtn3 = document.getElementById('minus-btn3')
+const minusbtn4 = document.getElementById('minus-btn4')
+const minusbtn5 = document.getElementById('minus-btn5')
+const minusbtn6 = document.getElementById('minus-btn6')
+const minusbtn7 = document.getElementById('minus-btn7')
+const minusbtn8 = document.getElementById('minus-btn8')
+const minusbtn9 = document.getElementById('minus-btn9')
+//
+const countLabel1 = document.getElementById('countLabel1')
+const countLabel2 = document.getElementById('countLabel2')
+const countLabel3 = document.getElementById('countLabel3')
+const countLabel4 = document.getElementById('countLabel4')
+const countLabel5 = document.getElementById('countLabel5')
+const countLabel6 = document.getElementById('countLabel6')
+const countLabel7 = document.getElementById('countLabel7')
+const countLabel8 = document.getElementById('countLabel8')
+const countLabel9 = document.getElementById('countLabel9')
+
+const circleActive = document.getElementsByClassName('circle--active')
+//
+// function valueBtn() {
+//     minusbtn1.onclick = function () {
+//         if (count > 1) {
+//             count -= 1;
+//             countLabel1.innerHTML = count;
+//         } else {
+//             basketAmount1.style.display = 'none'
+//             basket01.style.display = 'flex'
+//         }
+//     }
+//
+//     plusbtn1.onclick = function () {
+//         count += 1;
+//         countLabel1.innerHTML = count;
+//     }
+// }
+// valueBtn()
+
+// function valueBtn1(minusBtn,plusBtn,countLabel,basketAmount,basketNum) {
+//             minusBtn.onclick = function () {
+//                 if (count > 1) {
+//                     count -= 1;
+//                     countLabel.innerHTML = count;
+//                 } else {
+//                     basketAmount.style.display = 'none'
+//                     basketNum.style.display = 'flex'
+//                 }
+//             }
+//             plusBtn.onclick = function () {
+//                 count += 1;
+//                 countLabel.innerHTML = count;
+//             }
+//
+// }
+// plusbtn1.onclick =valueBtn1(minusbtn1,plusbtn1,countLabel1,basketAmount1,basket01)
+
+function valueBtn1(minusBtn,countLabel,basketAmount,basketNum) {
+    return function(){
+    minusBtn.onclick = function () {
+        if (count > 1) {
+            count -= 1;
+            countLabel.innerHTML = count;
+        } else {
+            basketAmount.style.display = 'none'
+            basketNum.style.display = 'flex'
+        }
+    }
+        }
+}
+minusbtn1.onclick = valueBtn1(minusbtn1,countLabel1,basketAmount1,basket01)
+minusbtn2.onclick = valueBtn1(minusbtn2,countLabel2,basketAmount2,basket02)
+function valueBtn2(plusBtn,countLabel){
+    return function(){
+        plusBtn.onclick = function () {
+                count += 1;
+                countLabel.innerHTML = count;
+            }
+    }
+}
+plusbtn1.onclick = valueBtn2(plusbtn1,countLabel1)
+plusbtn2.onclick = valueBtn2(plusbtn2,countLabel2)
+
+// filtration
+const filtrationSets = document.getElementById('filtration-sets')
+const filtrationBox = document.getElementById('filtration-boxs')
+const filtrationPresent = document.getElementById('filtration-presents')
+const KabritaSet = document.getElementById('Kabrita__Set')
+const KabritaBox = document.getElementById('Kabrita__Box')
+const KabritaPresent = document.getElementById('Kabrita__Present')
+
+filtrationSets.onclick = function(){
+    KabritaSet.style.display = 'flex'
+    KabritaBox.style.display = 'none'
+    KabritaPresent.style.display = 'none'
+}
+filtrationBox.onclick = function (){
+    KabritaSet.style.display = 'none'
+    KabritaBox.style.display = 'flex'
+    KabritaPresent.style.display = 'none'
+}
+filtrationPresent.onclick = function (){
+    KabritaSet.style.display = 'none'
+    KabritaBox.style.display = 'none'
+    KabritaPresent.style.display = 'flex'
+}
