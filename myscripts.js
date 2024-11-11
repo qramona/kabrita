@@ -118,7 +118,7 @@ BasketsOn.forEach(button => {
         targetBasketAmount.style.display = 'flex';
     });
 });
-// filtration
+// filtration on the way of the simple code
 const filtrationSets = document.getElementById('filtration-sets')
 const filtrationBox = document.getElementById('filtration-boxs')
 const filtrationPresent = document.getElementById('filtration-presents')
@@ -141,18 +141,6 @@ filtrationPresent.onclick = function (){
     KabritaBox.style.display = 'none'
     KabritaPresent.style.display = 'flex'
 }
-//
 
-// let kabritaMain = document.querySelectorAll(".filtration__main")
-// kabritaMain.forEach(button => {
-//     button.addEventListener('click', () => {
-//         button.style.display = "none";
-//         const targetBasketAmount = BasketAmount[Array.from(BasketsOn).indexOf(button)];
-//
-//         // Отображаем только найденный элемент
-//         targetBasketAmount.style.display = 'flex';
-//     });
-// });
-// totalPrice = totalPrice+quantity
 
 
