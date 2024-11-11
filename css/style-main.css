@@ -789,6 +789,22 @@ background: transparent;
     display: flex;
     flex-direction: column;
 }
+.card{
+    position: fixed;
+    top: 0;
+    left: 80%;
+    width: 500px;
+    height: 100%;
+    background: #dadada;
+    border-left: solid 1px #560bad;
+    transition: 0.5s;
+    z-index: 10;
+    overflow-y: scroll;
+    display: none;
+}
+.active .card{
+    left: calc(100% - 20%)
+}
 @media screen and (min-width: 1600px) {
 
     .header__first-slide, .header__second-slide, .header__third-slide {
@@ -1409,6 +1425,7 @@ background: transparent;
         width: 23px;
         margin-left: -1.8rem;
     }
+
     .header-carousel__p{
         width: 56%;
         font-size: 17px;
